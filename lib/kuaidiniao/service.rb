@@ -4,7 +4,7 @@ require 'active_support/core_ext/hash'
 
 module Kuaidiniao
   class Service
-    if Kuaidiniao.debug
+    if Kuaidiniao.de_bug
       API = debug_api
     else
       API = api
