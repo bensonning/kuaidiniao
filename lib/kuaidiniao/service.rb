@@ -4,11 +4,11 @@ require 'active_support/core_ext/hash'
 
 module Kuaidiniao
   class Service
-    if Kuaidiniao.de_bug
-      API = debug_api
-    else
+    #if Kuaidiniao.de_bug
+    #  API = debug_api
+    #else
       API = api
-    end
+    #end
     REQUEST_URL = 'http://api.kdniao.com/Ebusiness/EbusinessOrderHandle.aspx'.freeze
 
     # 查询订单物流轨迹，按照运单号单个查询
