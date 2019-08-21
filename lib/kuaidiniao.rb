@@ -7,6 +7,6 @@ module Kuaidiniao
 
   class << self
     # 商户ID， APPKey请到快递鸟后台会员中心查看
-    attr_accessor :mch_id, :app_key, :debug
+    attr_accessor :mch_id, :app_key, :de_bug
   end
 end
