@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{An unofficial simple kuaidiniao gem}
   spec.description   = %q{An unofficial simple kuaidiniao gem}
-  spec.homepage      = "https://github.com/chenxiaojun/kuaidiniao.git"
+  spec.homepage      = "https://github.com/besonning/kuaidiniao.git"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
