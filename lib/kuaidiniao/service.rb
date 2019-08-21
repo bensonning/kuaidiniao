@@ -7,7 +7,7 @@ module Kuaidiniao
     #if Kuaidiniao.de_bug
     #  API = debug_api
     #else
-      API = api
+      API = "api"
     #end
     REQUEST_URL = 'http://api.kdniao.com/Ebusiness/EbusinessOrderHandle.aspx'.freeze
 
