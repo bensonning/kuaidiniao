@@ -4,7 +4,7 @@ require 'active_support/core_ext/hash'
 
 module Kuaidiniao
   class Service
-    REQUEST_URL = 'http://api.kdniao.cc/Ebusiness/EbusinessOrderHandle.aspx'.freeze
+    REQUEST_URL = 'http://api.kdniao.com/Ebusiness/EbusinessOrderHandle.aspx'.freeze
 
     # 查询订单物流轨迹，按照运单号单个查询
     # shipper_code 快递公司编码
